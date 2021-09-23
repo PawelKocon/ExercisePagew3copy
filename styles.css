@@ -1,0 +1,551 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  /* rozsunięcie pomiędzy  */
+}
+.title {
+  color: green;
+  text-align: left;
+  font-size: 75px;
+  font-weight: 700;
+}
+.title2 {
+  color: greenyellow;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 100;
+  padding-top: 32px;
+}
+
+.belt {
+  background-color: green;
+  color: honeydew;
+  text-align: left;
+  display: flex;
+}
+.Tutorials,
+.References,
+.Examples {
+  margin-left: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 10;
+  padding-right: 32px;
+}
+
+/* .Facebook{
+/* logo tak jak zdjęcie  */
+/* color: #ff0000;
+font-size: 50px; */
+
+.button {
+  background-color: whitesmoke;
+  border: none;
+  color: green;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 29px;
+  height: 34px;
+  border-radius: 50%;
+}
+.TwoPages {
+  background-color: white;
+  display: flex;
+}
+.RightHand {
+  width: 100%;
+  background-color: grey;
+}
+.LeftHand {
+  text-align: center;
+  width: 230px;
+  text-align: left;
+  background-color: lightblue;
+}
+.TitleLabel {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.top {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  /* centrowanie flexa */
+}
+.TopLeftContent {
+  color: teal;
+  width: 50%;
+}
+.TopRightContent {
+  width: 50%;
+}
+.SmallNameBottom {
+  width: 50%;
+}
+.TopLeftContentBigName {
+  font-size: 100px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.HTMLReferencesButton {
+  margin-left: 5px;
+  background-color: #616161;
+  color: blanchedalmond;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.LernHTMLButton {
+  margin-right: 5px;
+  background-color: #616161;
+  color: blanchedalmond;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.TopLeftContentTitle {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.TopLeftContentButtons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.GreyBox {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-color: #f1f1f1;
+  padding-top: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+.TryITYourselfButton {
+  background-color: green;
+  color: honeydew;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.InsideCode {
+  background-color: white;
+  border-left: 5px solid green;
+}
+.HTMLExample {
+  padding-bottom: 15px;
+}
+
+/* --------------------------------------------- */
+.bottom {
+  background-color: white;
+  display: flex;
+}
+
+.SmallNameTop {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 50%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+}
+.Csscode {
+  width: 50%;
+}
+
+.TitleCSS {
+  color: green;
+  font-size: 100px;
+  /* justify-content: center; - działa tylko z flexem */
+  text-align: center;
+}
+/* live-server */
+
+.CSSReferences {
+  background-color: #616161;
+  color: blanchedalmond;
+  font-size: 25px;
+}
+
+.BG_white {
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.CssExmple {
+  padding-bottom: 15px;
+}
+.BlackBox {
+  background-color: black;
+  display: flex;
+}
+.phptext {
+  color: whitesmoke;
+}
+.BlackBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.BlackBoxBox {
+  background-color: chartreuse;
+  color: white;
+  padding-block: 50px;
+  margin: 45px;
+  width: 600px;
+  text-align: center;
+}
+.Bg-Pink {
+  background-color: pink;
+}
+.Bg-Yellow {
+  background-color: #fff4a3;
+}
+.Bg-White {
+  background-color: white;
+}
+.Bg-Green {
+  background-color: green;
+}
+.Bg-Blue {
+  background-color: blue;
+}
+.BlackBoxHeader {
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+}
+.BlackBoxContent {
+  font-size: 25px;
+  color: black;
+  margin: 45px;
+}
+.BlackBoxButton {
+  font-size: 15px;
+  color: white;
+  margin: 25px;
+  border-radius: 20px;
+  border: 5px black solid;
+  width: 200px;
+  height: 43px;
+  background-color: black;
+}
+.ButtonLink {
+  font-size: 15px;
+  color: white;
+  margin: 25px;
+  font-size: 30px;
+  font-weight: 500;
+  width: 200px;
+  height: 43px;
+  background-color: black;
+  text-decoration: none;
+}
+.BlackBoxBoxFour {
+  color: white;
+  margin: 60px;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  /* border: 5px black solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BlackBoxBoxFourContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1900px;
+  margin: 0 auto;
+}
+.LinkStyle {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+}
+.LinkContainer {
+  text-decoration: none;
+}
+.BlackBoxBoxFourBigHeight {
+  color: white;
+  margin: 60px;
+  width: 725px;
+  height: 200px;
+  border-radius: 20px;
+  /* border: 5px black solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ColorPickerContainer {
+  text-align: center;
+  width: 1000;
+  height: 500;
+  background-color: blanchedalmond;
+  font-size: 50px;
+}
+.ColorPickerLabel {
+  padding-top: 25px;
+  padding-bottom: 45px;
+  font-family: Haettenschweiler;
+  font-size: 125px;
+}
+.WorldFamousCPicker {
+  padding-top: 25px;
+  padding-bottom: 45px;
+}
+
+.CodeGame {
+  text-align: center;
+  width: 1000;
+  height: 500;
+  background-color: coral;
+  font-size: 50;
+}
+.CodeGameLabel {
+  padding-top: 25px;
+  padding-bottom: 45px;
+  font-family: Haettenschweiler;
+  font-size: 125px;
+}
+.HelpIT {
+  padding-top: 25px;
+  padding-bottom: 45px;
+  font-size: 50px;
+}
+.PlayITButton {
+  background-color: blueviolet;
+  padding: 35px;
+  text-align: center;
+  border-radius: 20px;
+  font-style: oblique;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ThreeImages {
+  text-align: center;
+  margin: 80px;
+}
+.FirstImage {
+  margin-left: auto;
+}
+.SecondImage {
+  margin-left: -80px;
+}
+.ThirdImage {
+  margin-left: -80px;
+}
+.FlyingBox {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  position: relative;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 20px;
+  /* animation: FlyingBox 15s linear 5s infinite alternate; */
+}
+
+@keyframes FlyingBox {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.CareerBox {
+  font-size: 45px;
+  font-family: "Times New Roman";
+  position: relative;
+}
+.GetStarted {
+  border-radius: 15px;
+  background-color: blueviolet;
+  width: 150px;
+  height: 125px;
+  margin: 50px;
+}
+
+/* .Seal {
+  margin-top: -250px;
+  transform: rotate(50deg);
+} */
+
+.Seal {
+  position: absolute;
+  left: 45%;
+  top: 0;
+}
+.PixBays {
+  display: flex;
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.Seagul,
+.PixbayDoggy {
+  width: 100%;
+  height: 525px;
+  justify-content: center;
+}
+.Label {
+  font-size: 25px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: aqua;
+}
+.LastBox {
+  background-color: azure;
+  /* display: flex; */
+  justify-content: center;
+}
+.HowToSection {
+  width: 100%;
+  height: 150px;
+  font-size: 55px;
+  font-family: "Times New Roman";
+  color: black;
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 50px;
+  justify-content: center;
+  display: flex;
+}
+.CodeSnippets {
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  font-family: Arial;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.ColumnsContainer {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.Column {
+  width: 650px;
+  height: 200px;
+  border: 1px solid gray;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.Sidebar {
+  background-color: black;
+  color: antiquewhite;
+  padding-top: 50px;
+  width: 700px;
+  padding-left: 10px;
+}
+.Bg-gray {
+  background-color: gray;
+}
+.Slidebar-Label:hover {
+  color: red;
+}
+.Content {
+  padding-left: 20px;
+  overflow-y: auto;
+}
+.LearnHowTo {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.LearnHowToBtn {
+  width: 1650px;
+  height: 50px;
+  border-radius: 10%;
+  border: 5px #5f9bd1 solid;
+}
+
+.Parallax {
+  /* The image used */
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c0/Flickr_-_davehighbury_-_Bovington_Tank_Museum_062_Tiger_1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .ParalaxEffect {
+  height: 100vh;
+  perspective: 2px;
+  overflow-x: hidden;
+}
+
+.row {
+  position: relative;
+  height: 100vh;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateZ(-1px) scale(1.55);
+}
+
+.static-background {
+  height: 55vh;
+  background-color: #303030;
+}
+
+.first-background {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c0/Flickr_-_davehighbury_-_Bovington_Tank_Museum_062_Tiger_1.jpg");
+  background-position: center;
+}
+
+.second-background {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Metro-maus1.jpg");
+  background-position: center;
+}
+
+//blog.robertorlinski.pl/efekt-parallax-w-czystym-css// */
