@@ -512,40 +512,18 @@ font-size: 50px; */
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .ParalaxEffect {
-  height: 100vh;
-  perspective: 2px;
-  overflow-x: hidden;
+.AllFooter {
+  width: 100%;
+  background-color: black;
+  height: 1000px;
+  color: white;
 }
-
-.row {
-  position: relative;
-  height: 100vh;
+.w-100 {
+  width: 100%;
 }
-
-.parallax {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  transform: translateZ(-1px) scale(1.55);
+.SmallFooterButtons {
+  border-radius: 20px;
+  display: flex;
+  width: 200px;
+  height: 250px;
 }
-
-.static-background {
-  height: 55vh;
-  background-color: #303030;
-}
-
-.first-background {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c0/Flickr_-_davehighbury_-_Bovington_Tank_Museum_062_Tiger_1.jpg");
-  background-position: center;
-}
-
-.second-background {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/18/Metro-maus1.jpg");
-  background-position: center;
-}
-
-//blog.robertorlinski.pl/efekt-parallax-w-czystym-css// */
