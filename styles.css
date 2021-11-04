@@ -574,3 +574,29 @@ font-size: 50px; */
   width: 120px;
   display: flex;
 }
+.w3schoolsShop {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.shopButton {
+  width: 1000px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+.shopLink {
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+.weatherContainer {
+  text-align: center;
+  height: 250px;
+  width: 1000;
+  background-color: red;
+  margin-left: 250px;
+  margin-right: 250px;
+}
